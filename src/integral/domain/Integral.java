@@ -3,15 +3,15 @@ package integral.domain;
 import java.util.Date;
 
 public class Integral {
-	private String id;
+	private String integralId;
 	private String value;
 	private Date startDate;
 	private Date expDate;
 	public String getId() {
-		return id;
+		return integralId;
 	}
 	public void setId(String id) {
-		this.id = id;
+		this.integralId = id;
 	}
 	public String getValue() {
 		return value;
