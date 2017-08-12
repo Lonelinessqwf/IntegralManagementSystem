@@ -5,7 +5,7 @@ import java.util.Date;
 public class IntegralChangeRecord {
 	private String recordId;	
 	private String changeId;
-	private int changeValue;
+	private double changeValue;
 	private Date changeDate;
 	public String getRecordId() {
 		return recordId;
@@ -19,10 +19,10 @@ public class IntegralChangeRecord {
 	public void setChangeId(String changeId) {
 		this.changeId = changeId;
 	}
-	public int getChangeValue() {
+	public double getChangeValue() {
 		return changeValue;
 	}
-	public void setChangeValue(int changeValue) {
+	public void setChangeValue(double changeValue) {
 		this.changeValue = changeValue;
 	}
 	public Date getChangeDate() {
