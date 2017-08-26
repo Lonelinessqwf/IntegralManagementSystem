@@ -3,20 +3,35 @@ package com.CurrDesign.model;
 import java.util.Date;
 
 public class Integral{
-	private String integralId;
-	private String value;
+	private String integralID;
+	private String userID;
+	private int integralType;
+	private int value;
 	private Date startDate;
 	private Date expDate;
-	public String getId() {
-		return integralId;
+	public String getID() {
+		return integralID;
 	}
-	public void setId(String id) {
-		this.integralId = id;
+	public void setID(String id) {
+		this.integralID = id;
 	}
-	public String getValue() {
+	public String getUserID() {
+		return userID;
+	}
+	public void setUser(String id) {
+		this.userID = id;
+	}
+	public int getIntegralType(){
+		return integralType;
+	}
+	public void setIntegralType(int integralType)
+	{
+		this.integralType = integralType;
+	}
+	public int getValue() {
 		return value;
 	}
-	public void setValue(String value) {
+	public void setValue(int value) {
 		this.value = value;
 	}
 	public Date getStartDate() {
