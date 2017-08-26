@@ -3,34 +3,20 @@ package com.CurrDesign.model;
 import java.util.Date;
 
 public class PresentExchangeRecord{
-	private String presentId;
-	private String userId;
-	private String username;
-	private double costIntegral;
+	private String exchangeID;
+	private String presentID;
 	private Date exchangeDate;
-	public String getPresentId() {
-		return presentId;
+	public String getExchangeID(){
+		return exchangeID;
+	}
+	public void setExchangeID(String exchangeID){
+		this.exchangeID = exchangeID;
+	}
+	public String getPresentID() {
+		return presentID;
 	}
 	public void setPresentId(String presentId) {
-		this.presentId = presentId;
-	}
-	public String getUserId() {
-		return userId;
-	}
-	public void setUserId(String userId) {
-		this.userId = userId;
-	}
-	public String getUsername() {
-		return username;
-	}
-	public void setUsername(String username) {
-		this.username = username;
-	}
-	public double getCostIntegral() {
-		return costIntegral;
-	}
-	public void setCostIntegral(double costIntegral) {
-		this.costIntegral = costIntegral;
+		this.presentID = presentId;
 	}
 	public Date getExchangeDate() {
 		return exchangeDate;
@@ -38,7 +24,5 @@ public class PresentExchangeRecord{
 	public void setExchangeDate(Date exchangeDate) {
 		this.exchangeDate = exchangeDate;
 	}
-	
-	
 	
 }
