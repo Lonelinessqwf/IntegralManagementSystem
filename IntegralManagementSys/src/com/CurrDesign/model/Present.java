@@ -2,16 +2,15 @@ package com.CurrDesign.model;
 
 
 public class Present{
-	private String presentID;
+	private String presentId;
 	private String presentType;
 	private double presentPrice;
-	private int costIntegral;
 	private int presentNum;
-	public String getPresentID() {
-		return presentID;
+	public String getPresentId() {
+		return presentId;
 	}
-	public void setPresentID(String presentID) {
-		this.presentID = presentID;
+	public void setPresentId(String presentId) {
+		this.presentId = presentId;
 	}
 	public String getPresentType() {
 		return presentType;
@@ -24,12 +23,6 @@ public class Present{
 	}
 	public void setPresentPrice(double presentPrice) {
 		this.presentPrice = presentPrice;
-	}
-	public int getCostIntegral(){
-		return costIntegral;
-	}
-	public void setCostIntegral(int costIntegral){
-		this.costIntegral = costIntegral;
 	}
 	public int getPresentNum() {
 		return presentNum;

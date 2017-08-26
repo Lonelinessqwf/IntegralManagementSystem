@@ -18,10 +18,4 @@ public interface AccountDAO {
 	 */
 	public Account findAccountByName(String Username) throws Exception;
 	
-	/*
-	 * 添加新账户
-	 * 参数 ： 账户对象
-	 * 返回 ： 无
-	 */
-	public void addAccount(Account account) throws Exception;
 }

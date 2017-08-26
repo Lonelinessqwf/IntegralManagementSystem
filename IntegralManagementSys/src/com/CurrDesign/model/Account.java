@@ -3,27 +3,26 @@ package com.CurrDesign.model;
 import java.util.Date;
 
 public class Account{
-	private String userID;
-	private String userName;
+	private String userId;
+	private String username;
 	private String password;
 	private String realName;
 	private Date netInDate;
-	private String telephone;
-	private Date birth;
+	private String phoneNum;
+	private Date birthday;
 	private String address;
 	private int level;
-	private int currentIntegral;
-	public String getID() {
-		return userID;
+	public String getId() {
+		return userId;
 	}
-	public void setID(String id) {
-		this.userID = id;
+	public void setId(String id) {
+		this.userId = id;
 	}
 	public String getUsername() {
-		return userName;
+		return username;
 	}
-	public void setUsername(String userName) {
-		this.userName = userName;
+	public void setUsername(String username) {
+		this.username = username;
 	}
 	public String getPassword() {
 		return password;
@@ -44,16 +43,16 @@ public class Account{
 		this.netInDate = netInDate;
 	}
 	public String getPhoneNum() {
-		return telephone;
+		return phoneNum;
 	}
-	public void setPhoneNum(String telephone) {
-		this.telephone = telephone;
+	public void setPhoneNum(String phoneNum) {
+		this.phoneNum = phoneNum;
 	}
 	public Date getBirthday() {
-		return birth;
+		return birthday;
 	}
-	public void setBirthday(Date birth) {
-		this.birth = birth;
+	public void setBirthday(Date birthday) {
+		this.birthday = birthday;
 	}
 	public String getAddress() {
 		return address;
@@ -66,12 +65,6 @@ public class Account{
 	}
 	public void setLevel(int level) {
 		this.level = level;
-	}
-	public int getCurrentIntegral() {
-		return currentIntegral;
-	}
-	public void setCurrentIntegral(int currentIntegral) {
-		this.currentIntegral = currentIntegral;
 	}
 	
 	
