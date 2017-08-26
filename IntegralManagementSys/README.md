@@ -80,11 +80,11 @@ project IntegralManagementSys
 			功能 ：	根据ID查询其他信息	（ID查询内部类）
 		IntegralDAO.java
 			功能 ：	根据ID查询其他信息	（ID查询内部类）
-		ICRDAO.java(Integral Changed Record)
+		ICRDAO.java
 			功能 ：	根据ID查询其他信息	（ID查询内部类）
 		PresentDAO.java
 			功能 ：	根据ID查询其他信息	（ID查询内部类）
-		PERDAO.java(Presents Exchanged Record)
+		PERDAO.java
 			功能 ：	根据ID查询其他信息	（ID查询内部类）
 	
 4)	package com.CurrDesign.daoImpl	// 接口实现
